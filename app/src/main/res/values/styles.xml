@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Adding the new attributes here to use in xml -->
+
+    <declare-styleable name="MultiStyleButton">
+        <attr name="style1" format="reference" />
+        <attr name="style2" format="reference" />
+        <attr name="style3" format="reference" />
+        <attr name="style4" format="reference" />
+        <attr name="style5" format="reference" />
+    </declare-styleable>
+
+    <!-- Fonts for the buttons -->
+    <!-- Note the parent of the style -->
+    <style name="CallToAction" parent="Widget.MaterialComponents.TextView">
+        <item name="textAllCaps">true</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+
+    <style name="CallToAction.Primary" parent="CallToAction">
+        <item name="android:fontFamily">sans-serif</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CallToAction.Secondary" parent="CallToAction">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="CallToAction.Ugly" parent="CallToAction">
+        <item name="android:textSize">18sp</item>
+        <item name="android:fontFamily">sans-serif-condensed-light</item>
+        <item name="android:textColor">@color/purple_500</item>
+    </style>
+
+    <!-- Background styles for the buttons -->
+
+    <style name="Background_Blue" parent="Widget.MaterialComponents.TextView">
+        <item name="android:background">@drawable/button_background_blue</item>
+    </style>
+
+    <style name="Background_Orange" parent="Widget.MaterialComponents.TextView">
+        <item name="android:background">@drawable/button_background_orange</item>
+    </style>
+
+    <!-- Spacings and layout styles for the buttons -->
+
+    <style name="Button_Layout" parent="Widget.MaterialComponents.TextView">
+        <item name="android:paddingStart">20dp</item>
+        <item name="android:paddingEnd">20dp</item>
+        <item name="android:minHeight">40dp</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+</resources>

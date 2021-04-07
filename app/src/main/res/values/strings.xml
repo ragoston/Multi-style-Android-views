@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">MultiStyleApp</string>
+    <string name="nice_cta">Nice cta</string>
+    <string name="fair_enough_cta">Fair enough cta</string>
+    <string name="ugly_cta">Ugly cta</string>
+</resources>
