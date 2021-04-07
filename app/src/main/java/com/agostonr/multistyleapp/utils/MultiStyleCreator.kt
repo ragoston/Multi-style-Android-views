@@ -10,7 +10,7 @@ import com.agostonr.multistyleapp.R
 object MultiStyleCreator {
 
     fun createThemedContext(context: Context, attrs: AttributeSet): ContextThemeWrapper {
-        val styleAttributes = context.obtainStyledAttributes(attrs, R.styleable.MultiStyleButton)
+        val styleAttributes = context.obtainStyledAttributes(attrs, R.styleable.MultiStyleTextView)
         val theme = context.resources.newTheme()
         val styles = createStyles(styleAttributes)
         theme.applyValidStyles(styles)
@@ -20,11 +20,11 @@ object MultiStyleCreator {
 
     private fun createStyles(styleAttributes: TypedArray): List<Int> {
         return listOf(
-            styleAttributes.getResourceId(R.styleable.MultiStyleButton_style1, 0),
-            styleAttributes.getResourceId(R.styleable.MultiStyleButton_style2, 0),
-            styleAttributes.getResourceId(R.styleable.MultiStyleButton_style3, 0),
-            styleAttributes.getResourceId(R.styleable.MultiStyleButton_style4, 0),
-            styleAttributes.getResourceId(R.styleable.MultiStyleButton_style5, 0)
+            styleAttributes.getResourceId(R.styleable.MultiStyleTextView_style1, 0),
+            styleAttributes.getResourceId(R.styleable.MultiStyleTextView_style2, 0),
+            styleAttributes.getResourceId(R.styleable.MultiStyleTextView_style3, 0),
+            styleAttributes.getResourceId(R.styleable.MultiStyleTextView_style4, 0),
+            styleAttributes.getResourceId(R.styleable.MultiStyleTextView_style5, 0)
         )
     }
 

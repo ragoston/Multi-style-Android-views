@@ -3,7 +3,7 @@
 
     <!-- Adding the new attributes here to use in xml -->
 
-    <declare-styleable name="MultiStyleButton">
+    <declare-styleable name="MultiStyleTextView">
         <attr name="style1" format="reference" />
         <attr name="style2" format="reference" />
         <attr name="style3" format="reference" />
