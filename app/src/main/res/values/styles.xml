@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <!-- Adding the new attributes here to use in xml -->
+    <!-- Adding the new attributes here to use in our layout xml later -->
 
     <declare-styleable name="MultiStyleTextView">
         <attr name="style1" format="reference" />
