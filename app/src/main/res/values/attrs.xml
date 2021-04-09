@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Adding the new attributes here to use in our layout xml later -->
+
+    <declare-styleable name="TextView">
+        <attr name="style1" format="reference" />
+        <attr name="style2" format="reference" />
+        <attr name="style3" format="reference" />
+        <attr name="style4" format="reference" />
+        <attr name="style5" format="reference" />
+    </declare-styleable>
+
+</resources>
